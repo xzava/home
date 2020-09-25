@@ -12,3 +12,4 @@ REASON: content, article design
 
 - [Simple Deploy ML](https://towardsdatascience.com/simple-way-to-deploy-machine-learning-models-to-cloud-fd58b771fdcf) 
 
+- [Data science resources](https://towardsdatascience.com/how-id-learn-data-science-if-i-could-start-over-2-years-in-b821d8a4876c)
