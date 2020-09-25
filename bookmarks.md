@@ -10,5 +10,5 @@ REASON: content, article design
 - [Image tracking cnn](https://github.com/matterport/Mask_RCNN)
 
 
-
+- [Simple Deploy ML](https://towardsdatascience.com/simple-way-to-deploy-machine-learning-models-to-cloud-fd58b771fdcf) 
 
