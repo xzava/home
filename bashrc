@@ -164,3 +164,7 @@ alias helperjs="subl ~/work/helper.js"
 # WARNING: Makes capslock become Esc
 xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
 
+# https://wiki.python.org/moin/Powerful%20Python%20One-Liners
+
+# Create a token/secret/password of length 32
+alias secret="python3.8 -c 'import secrets;print(secrets.token_urlsafe(32))'"
