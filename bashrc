@@ -159,3 +159,8 @@ alias server="python3 -m http.server 8000 --bind 127.0.0.1"
 alias utils="subl ~/work/utils.py"
 
 alias helperjs="subl ~/work/helper.js"
+
+
+# WARNING: Makes capslock become Esc
+xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
+
