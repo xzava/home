@@ -1,6 +1,17 @@
 ## Helpful things to add to bashrc, helps keep devices feel the same.
-# Note: This is not a complete bashrc only to be pasted at the end of one.
+# Note: This is not a complete bashrc only to be append to the end of an existing one.
 
+### Instructions: Append this file to the current .bashrc
+## Download this file
+# cd ~
+# curl https://raw.githubusercontent.com/xzava/home/master/bashrc > tmp_bashrc
+## Check it is correct and all functions are needed
+# vim tmp_bashrc
+## Append the tmp file to the end of .bashrc
+# cat tmp_bashrc >> .bashrc
+## Check the new .bashrc is okay
+# rm tmp_bashrc
+# source .bashrc
 
 # make a dir then enter it.
 function mkcd {
@@ -14,7 +25,6 @@ function mkcd {
 }
 
 
-# Note you can change python3 to python3.8 if needed.
 function activate {
   # check to see if their is a venv folder in the current dir
   # if so activate it otherwise make one then activate it.
