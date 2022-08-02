@@ -7,7 +7,7 @@ function mkcd {
   if [ ! -n "$1" ]; then
     echo "Enter a directory name: mkcd <directory_name>"
   elif [ -d "$1" ]; then
-    echo "\`$1' already exists"
+    echo "\'$1' already exists"
   else
     mkdir "$1" && cd "$1"
   fi
@@ -32,7 +32,7 @@ function activate {
       # echo "$FILE exist"
       source "$FILE"
       echo "Existing venv is now active."
-      python --version
+      python3 --version
   else 
       # echo "$FILE does not exist"
       echo "Creating new venv"
@@ -161,10 +161,10 @@ alias utils="subl ~/work/utils.py"
 alias helperjs="subl ~/work/helper.js"
 
 
-# WARNING: Makes capslock become Esc
-xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
+## WARNING: Makes capslock become Esc
+#xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
 
 # https://wiki.python.org/moin/Powerful%20Python%20One-Liners
 
 # Create a token/secret/password of length 32
-alias secret="python3.8 -c 'import secrets;print(secrets.token_urlsafe(32))'"
+alias secret="python3 -c 'import secrets;print(secrets.token_urlsafe(32))'"
